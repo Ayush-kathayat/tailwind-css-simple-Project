@@ -1,8 +1,11 @@
+import Navbar from "../Navbar/navbar";
 
 const LandingPage = () => {
   return (
-    <div className="text-black">LandingPage</div>
-  )
-}
+    <>
+      <Navbar />
+    </>
+  );
+};
 
-export default LandingPage
+export default LandingPage;
